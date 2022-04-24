@@ -25,7 +25,7 @@ $customappname = "customapp"
 $containerappname = "containerapp"
 $acrname="acr$random"
 $group = "pentest-rg"
-$location = "uksouth"
+$location = "CentralUS"
 az group create --name $group --location $location
 
 ## obtain subscription id
