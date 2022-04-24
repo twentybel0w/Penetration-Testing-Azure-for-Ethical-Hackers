@@ -1,0 +1,4 @@
+Per article: https://docs.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/error-sku-not-available?tabs=azure-cli
+
+Run the following command from the az cli to see the available VM sizes for a given location:
+az vm list-skus --location centralus --resource-type virtualMachines --zone --all --output table
